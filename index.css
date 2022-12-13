@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: lightyellow;
+}
+.container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 40px auto 40px;
+  grid-gap: 3px;
+  text-align: center;
+}
+.child{
+  color: white;
+}
+.header{
+  background-color: blue;
+  grid-column: 1/-1;
+}
+.menu{
+  background-color: red;
+}
+.content{
+  background-color: black;
+  grid-column: 2/-1;
+}
+.footer{
+  background-color: green;
+  grid-column: 1/-1;
+}
